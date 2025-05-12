@@ -186,6 +186,7 @@ color: #404bbf;
 }
 .team-title, 
 .portfolio-title {
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -193,6 +194,7 @@ color: #404bbf;
     text-transform: capitalize;
     color: #2e2f42;
 }
+
 .team-list, 
 .portfolio-list {
     display: flex;
@@ -236,6 +238,12 @@ border-top: none;
 .card-title-5, 
 .card-title-6 {
 margin-bottom: 8px;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+text-align: center;
 }
 
 .team-name {
@@ -244,7 +252,7 @@ margin-bottom: 8px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8;
+    margin-bottom: 72px;
 }
 .card-text-1, 
 .card-text-2,
@@ -252,7 +260,12 @@ margin-bottom: 8px;
 .card-text-4,
 .card-text-5, 
 .card-text-6 {
-margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+    margin: 0;
 }
 .team-position {
     font-size: 16px;
