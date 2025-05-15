@@ -1,11 +1,26 @@
 @import url('modern-normalize.css');
 
+
 body {
     font-family: Roboto, sans-serif;
     color: #434455;
     background-color: #ffffff;
 }
 
+all-list {
+margin: 0;
+padding: 0;
+}
+h1, h2, h3 {
+    margin: 0;
+
+}
+p { margin: 0;
+
+}
+a {
+    text-decoration: none;
+}
 img {
     display: block;
     max-width: 100%;
@@ -27,11 +42,13 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .main-nav {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .main-logo {
@@ -56,19 +73,12 @@ img {
  .nav-list {
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    gap: 40px;
+    
  }
-
- .nav-list li {
-    margin: 40px;
- }
-
-.nav-list li:last-child {
-    margin-right: 0;
-}
  
 .nav-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -90,8 +100,7 @@ img {
  .main-address .address-list {
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
+    
 }
 
 .address-list li {
